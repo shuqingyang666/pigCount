@@ -1,0 +1,11 @@
+# pig_dataset6.yaml
+# YOLO 数据集配置示例
+
+# 类别名称
+names:
+  0: pig  # 这里假设你的目标是猪，如果有多类可以按 0,1,2... 顺序添加
+
+# 训练集和验证集图片路径
+train: D:/pig/pig_dataset6/test/train/images
+val:   D:/pig/pig_dataset6/test/val/images
+test: D:/pig/pig_dataset6/test/test/images

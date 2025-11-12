@@ -1,0 +1,11 @@
+# 数据集配置文件
+# train/val 是图片和标签的路径，labels 文件夹中是 YOLO 格式标注 txt 文件
+
+train: D:/pig/pig_dataset6/train/images
+val: D:/pig/pig_dataset6/val/images
+
+# 类别数量
+nc: 1  # 如果你的猪只有一个类别，改成你实际类别数
+
+# 类别名称列表
+names: ["pig"]

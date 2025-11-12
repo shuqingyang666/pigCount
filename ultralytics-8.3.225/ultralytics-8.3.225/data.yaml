@@ -1,0 +1,8 @@
+train: D:\ultralytics-8.3.225\ultralytics-8.3.225\pig_dataset6\pro\train\images
+val: D:\ultralytics-8.3.225\ultralytics-8.3.225\pig_dataset6\pro\val\images  # val images (relative to 'path') 128 images
+test: D:\ultralytics-8.3.225\ultralytics-8.3.225\pig_dataset6\pro\test\images
+
+nc: 2
+
+# Classes
+names: ['hat','nohat']
