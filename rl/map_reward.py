@@ -1,8 +1,3 @@
-"""
-map_reward
-
-date : 2025/11/10
-"""
 import torch
 
 def box_iou(box1, box2):
